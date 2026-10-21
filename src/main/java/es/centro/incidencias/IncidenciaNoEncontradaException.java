@@ -1,5 +1,11 @@
 package es.centro.incidencias;
 
+/**
+ * Gestiona los errores cuando un método no es capaz de devolver una Incidencia
+ *
+ * @version 2.0
+ * @since 1.0
+ */
 public class IncidenciaNoEncontradaException extends Exception {
 
     /**
